@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .header--flex1,
+  .header__connection {
+    display: none;
+  }
+  .header__border {
+    display: block;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}

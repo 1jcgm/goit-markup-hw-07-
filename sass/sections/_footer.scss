@@ -1,0 +1,145 @@
+.footer {
+  background-color: rgb(47, 48, 58);
+  height: 292px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer--class {
+  display: flex;
+}
+.logo {
+  text-decoration: none;
+  color: $color4;
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.15;
+  font-weight: 700;
+  padding: 32px 0px;
+  margin: 0;
+}
+.footer--direction {
+  text-decoration: none;
+  line-height: 1.71;
+  color: $color3;
+  font-weight: 400;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $color4;
+  }
+  &:focus {
+    color: $color4;
+  }
+}
+.footer--contact {
+  text-decoration: none;
+  line-height: 1.71;
+  color: $color2;
+  font-weight: 400;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    color: $color4;
+  }
+  &:hover {
+    color: $color4;
+  }
+}
+.footer--class2 {
+  width: 80%;
+}
+.footer__paragraph {
+  color: $color3;
+  line-height: 1.71;
+  font-weight: 400;
+  text-align: center;
+}
+.footer--list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footer__svg--focus {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__svg--focus:focus svg {
+  fill: $color3;
+}
+.footer__svg--focus:focus .footer__svg-icon {
+  background-color: $color4;
+}
+.footer__svg--focus:focus .footer--svg {
+  background-color: $color4;
+}
+.footer--svg {
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: $color4;
+    cursor: pointer;
+  }
+}
+.footer--svg:hover .footer__svg-icon,
+.footer__svg-icon:hover {
+  fill: $color3;
+}
+.footer__svg-icon {
+  fill: $color6;
+}
+.footer__paragraph2 {
+  color: $color3;
+  line-height: 1.71;
+  font-weight: 400;
+}
+
+.footer--form {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+}
+.footer__form-box {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px 101px 15px 16px;
+  cursor: pointer;
+}
+.footer__form-box::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+}
+.footer__button {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: $color4;
+  color: $color3;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+.footer__button__icon {
+  top: 13px;
+  margin-left: 20px;
+}

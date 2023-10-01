@@ -1,0 +1,34 @@
+.main__image-title {
+  color: $color1;
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.main__image {
+  display: flex;
+  gap: 30px;
+  margin-top: 55px;
+}
+.main__image-relative {
+  position: relative;
+  overflow: hidden;
+}
+
+.main__image-absolute {
+  position: absolute;
+  bottom: 0px;
+  width: 370px;
+  height: 70px;
+  margin: 4px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: rgba(47, 48, 58, 0.8);
+  cursor: pointer;
+}

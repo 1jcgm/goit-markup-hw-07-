@@ -1,0 +1,32 @@
+.customers {
+  padding-top: 59px;
+  padding-bottom: 151px;
+}
+.customers__title {
+  color: $color1;
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 55px;
+  text-align: center;
+}
+.customers--list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.customers__svg {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  fill: $color6;
+  &:hover {
+    fill: $color4;
+    border: 1px solid $color4;
+  }
+}
+.customers__svg--focus:focus svg {
+  fill: $color4;
+  border: 1px solid $color4;
+}
